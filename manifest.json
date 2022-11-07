@@ -1,0 +1,10 @@
+{
+    "name": "AutoWinClaim",
+    "description": "Automatically claims the win of a 4 player chess.com game",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "worker.js"
+    },
+    "host_permissions": ["https://*chess.com/variants/4-player-chess/*"]
+}

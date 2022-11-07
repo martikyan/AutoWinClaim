@@ -15,6 +15,7 @@ setInterval(() =>
     }
 
     var button = claimButtons[0];
-    console.log("Claim button found");
     button.click();
+
+    console.log("Claim button clicked.");
 }, checkInterval);

@@ -15,6 +15,12 @@ setInterval(() =>
     }
 
     var button = claimButtons[0];
+    
+    if (button.innerText != "Claim win")
+    {
+        return;
+    }
+    
     button.click();
 
     console.log("Claim button clicked.");
